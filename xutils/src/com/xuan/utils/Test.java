@@ -16,7 +16,7 @@ public class Test {
         // System.out.println(FriendlyTimeUtils.friendly_time("2013-06-21 15:48:32"));
         // System.out.println(FriendlyTimeUtils.friendly_time("2013-06-21 15:38:32"));
         // System.out.println(FriendlyTimeUtils.friendly_time("2013-06-21 12:39:32"));
-        System.out.println(FriendlyTimeUtils.friendly_time("2014-06-21 15:58:32"));
+        System.out.println(SecurityUtils.encodeByMD5("111"));
     }
 
 }
